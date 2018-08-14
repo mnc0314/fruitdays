@@ -1,0 +1,177 @@
+/*手机号输入框*/
+#d5 {
+    padding-left: 42px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/*手机号文本*/
+#d55 {
+    width: 96px;
+    height: 40px;
+    position: absolute;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #999;
+    text-align: right;
+    line-height: 40px; /*设置行高，超过文本大小会居中显示*/
+    top: 0;
+    right: 342px;
+}
+
+/*密码框*/
+#d6 {
+    padding-left: 42px;
+    position: absolute;
+    right: 0;
+    top: 65px;
+}
+
+/*密码文本*/
+#d66 {
+    width: 96px;
+    height: 40px;
+    position: absolute;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #999;
+    text-align: right;
+    line-height: 40px;
+    top: 65px;
+    right: 342px;
+}
+/*确认密码框*/
+#dd7 {
+    padding-left: 42px;
+    position: absolute;
+    right: 0;
+    top: 130px;
+}
+
+/*密码文本*/
+#dd77 {
+    width: 96px;
+    height: 40px;
+    position: absolute;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #999;
+    text-align: right;
+    line-height: 40px;
+    top: 130px;
+    right: 342px;
+}
+
+/*用户名框*/
+#dd8 {
+    padding-left: 42px;
+    position: absolute;
+    right: 0;
+    top: 195px;
+}
+
+/*用户名文本*/
+#dd88 {
+    width: 96px;
+    height: 40px;
+    position: absolute;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #999;
+    text-align: right;
+    line-height: 40px;
+    top: 195px;
+    right: 342px;
+}
+/*邮箱框*/
+#dd9 {
+    padding-left: 42px;
+    position: absolute;
+    right: 0;
+    top: 260px;
+}
+
+/*邮箱文本*/
+#dd99 {
+    width: 96px;
+    height: 40px;
+    position: absolute;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #999;
+    text-align: right;
+    line-height: 40px;
+    top: 260px;
+    right: 342px;
+}
+
+/*设置文本框和密码框*/
+.form-control {
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box; /*尺寸中会包含内边距和边框的值*/
+    border: 1px solid #ccc; /*边框*/
+    border-radius: 3px; /*设置边框倒脚*/
+    padding: 0 13px; /*设置内边距 上下0 左右13px*/
+    font-size: 14px;
+    color: #999;
+}
+
+/*设置伪类选择器，匹配元素获取焦点时的状态*/
+.form-control:focus {
+    border-color: #729e43;
+    outline: none; /*取消边框轮廓*/
+    box-shadow: 0px 0px 5px #729e43; /*设置边框阴影*/
+}
+
+#d8 {
+    width: 440px;
+    height: 38px;
+    position: absolute;
+    top: 330px;
+    right: 0;
+}
+
+#d8 div {
+    position: absolute;
+    right: 0;
+}
+#d8 :hover{
+    cursor:pointer;
+}
+
+/*设置登录按钮*/
+#d8 .btnlogin {
+    width: 143px;
+    height: 38px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 18px;
+    background-color: #729e43;
+    border-radius: 5px; /*设置边框倒脚*/
+    border: none; /*取消边框*/
+    outline: none; /*取消边框轮廓*/
+    padding: 0;
+    position: absolute;
+    right: 157px;
+}
+
+#d8 #register {
+    width: 143px;
+    height: 38px;
+    box-sizing: border-box;
+    border: 1px solid #729e43;
+    font-size: 18px;
+    border-radius: 5px; /*设置边框倒脚*/
+    outline: none; /*取消边框轮廓*/
+    padding: 0;
+    position: absolute;
+    right: 0;
+}
+
+#d8 #register > a {
+    text-decoration: none;
+    color: #729e43;
+}
+

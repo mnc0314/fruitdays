@@ -1,0 +1,377 @@
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+body {
+    width: 1440px;
+    height: 1273px;
+}
+
+/*顶栏*/
+#d1 {
+    height: 30px;
+    background: #eee;
+}
+
+/*logo栏*/
+#d2 {
+    height: 120px;
+    background: #fff;
+    border-bottom: 0.1px solid #f1f1f1;
+    box-shadow: 0 4px 5px #f1f1f1;
+    position: relative;
+}
+
+#d2 img {
+    width: 400px;
+    height: 119px;
+}
+
+#d3 {
+    width: 1000px;
+    height: 110px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 220px;
+    margin-right: 220px;
+    position: relative; /*相对定位，为了配合p做绝对定位*/
+}
+
+#d3 p {
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    color: #999;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
+/*主体部分*/
+#d4 {
+    width: 1000px;
+    height: 446px;
+    margin-left: 220px;
+    margin-right: 220px;
+    position: relative; /*相对定位，为了配合commend做绝对定位*/
+}
+
+#d4 .logo {
+    margin-top: 35px;
+    width: 500px;
+    height: 400px;
+}
+
+/*主界面会员注册超链接*/
+.hyzc {
+    width: 149.22px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid #729e43;
+    border-radius: 5px;
+    position: absolute;
+    background: #fff;
+    left: 175px;
+    bottom: 66px;
+    text-align: center;
+}
+
+.hyzc a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #729e43;
+    line-height: 48px;
+}
+
+#command {
+    padding-left: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*文本输入框*/
+#d5 {
+    padding-left: 42px;
+    position: absolute;
+    right: 0;
+    top: 75px;
+}
+
+/*手机号文本*/
+#d55 {
+    width: 96px;
+    height: 40px;
+    position: absolute;
+    top: 75px;
+    right: 342px;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #999;
+    text-align: right;
+    line-height: 40px; /*设置行高，超过文本大小会居中显示*/
+}
+
+/*密码框*/
+#d6 {
+    padding-left: 42px;
+    position: absolute;
+    right: 0;
+    top: 140px;
+}
+
+/*密码文本*/
+#d66 {
+    width: 96px;
+    height: 40px;
+    position: absolute;
+    top: 140px;
+    right: 342px;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #999;
+    text-align: right;
+    line-height: 40px;
+}
+
+/*设置文本框和密码框*/
+.form-control {
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box; /*尺寸中会包含内边距和边框的值*/
+    border: 1px solid #ccc; /*边框*/
+    border-radius: 3px; /*设置边框倒脚*/
+    padding: 0 13px; /*设置内边距 上下0 左右13px*/
+    font-size: 14px;
+    color: #999;
+}
+
+/*设置伪类选择器，匹配元素获取焦点时的状态*/
+.form-control:focus {
+    border-color: #729e43;
+    outline: none; /*取消边框轮廓*/
+    box-shadow: 0px 0px 5px #729e43; /*设置边框阴影*/
+}
+
+/*多选框+超链接*/
+#d7 {
+    width: 440px;
+    height: 45px;
+    position: absolute;
+    right: 0;
+    top: 205px;
+}
+
+#d7 div {
+    line-height: 45px;
+    position: absolute;
+    right: 0;
+}
+
+.d77 {
+    position: absolute;
+    left: 140px;
+    vertical-align: middle; /*默认基线对齐，设置居中对齐*/
+
+}
+
+/*设置保存密码复选框*/
+.isSaved {
+    width: 20px;
+    height: 20px;
+}
+
+#d8 {
+    width: 440px;
+    height: 38px;
+    position: absolute;
+    top: 255px;
+    right: 0;
+}
+
+#d8 div {
+    position: absolute;
+    right: 0;
+}
+#d8 :hover{
+    cursor:pointer;
+}
+
+/*设置登录按钮*/
+#d8 .btnlogin {
+    width: 143px;
+    height: 38px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 18px;
+    background-color: #729e43;
+    border-radius: 5px; /*设置边框倒脚*/
+    border: none; /*取消边框*/
+    outline: none; /*取消边框轮廓*/
+    padding: 0;
+    position: absolute;
+    right: 157px;
+}
+
+#d8 #register {
+    width: 143px;
+    height: 38px;
+    box-sizing: border-box;
+    border: 1px solid #729e43;
+    font-size: 18px;
+    border-radius: 5px; /*设置边框倒脚*/
+    outline: none; /*取消边框轮廓*/
+    padding: 0;
+    position: absolute;
+    right: 0;
+}
+
+#d8 #register > a {
+    text-decoration: none;
+    color: #729e43;
+}
+
+#d9 {
+    margin: 40px 80px 0;
+}
+
+#d9 #d10 {
+    width: 1280px;
+    height: 105px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#d10 img {
+    width: 1280px;
+    height: 105px;
+}
+
+#d11 {
+    width: 1280px;
+    height: 170px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+/*底部二维码部分*/
+#d111 {
+    position: absolute;
+    left: 0;
+    width: 595px;
+    height: 160px;
+    margin-bottom: 10px;
+
+}
+
+/*右边二维码*/
+#d111 #i22 {
+    position: absolute;
+    right: 45px;
+    margin-bottom: 10px;
+}
+
+#d111 span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #999;
+    font-size: 14px;
+    height: 20px;
+}
+
+/*二维码下的文字*/
+#d111 #ii22 {
+    margin-right: 65px;
+}
+
+/*左边二维码*/
+#d111 #i21 {
+    position: absolute;
+    right: 220px;
+    margin-bottom: 10px;
+}
+
+/*二维码下的文字*/
+#d111 #ii21 {
+    margin-right: 230px;
+}
+
+/*底部超链接部分*/
+#d112 {
+    position: absolute;
+    right: 0;
+    width: 685px;
+    height: 160px;
+    margin-bottom: 10px;
+
+}
+
+#d112 div {
+    margin-left: 30px;
+    width: 70px;
+    height: 137px;
+    float: left;
+}
+
+#d112 h4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#d112 p {
+    width: 100px;
+    height: 30px;
+}
+
+#d112 p a {
+    color: #999;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*最底部*/
+#d12 p {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#d12 div {
+    width: 1280px;
+    height: 47px;
+}
+
+#d12 div a {
+    text-decoration: none;
+}
+
+#d12 div img {
+    width: 47px;
+    height: 47px;
+}
+
+/*固定定位*/
+#d13 {
+    position: fixed;
+    width: 40px;
+    height: 120px;
+    right: 0;
+    bottom: 0;
+}
+
+#d13 div {
+    width: 40px;
+    height: 40px;
+}
+
+#d13 div a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#d13 div img {
+    width: 40px;
+    height: 40px;
+}

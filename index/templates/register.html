@@ -1,0 +1,68 @@
+{%extends 'login.html'%}
+
+{%block HYDL%}
+<p>注册会员</p>
+{%endblock%}
+
+{%block HYZC%}
+<a href="{%url 'index_login'%}">会员登录></a>
+{%endblock%}
+
+{%block FORM%}
+<script src="/static/js/jquery-1.11.3.js"></script>
+<script src="/static/js/register.js"></script>
+<link rel="stylesheet" href="/static/css/register.css">
+<!--主体右-表单控件-->
+<form action="/register/" method="post" id="formReg">
+    {%csrf_token%}
+    <div id="command">
+        <!--文本输入框-->
+        <div id="d55" class='ttt'>手机号</div>
+        <div id="d5">
+            <input type="text" name="upon" class="form-control ttt" id="i1">
+            <!--判断手机号是否异常-->
+            {%if error == 2%}
+            <span style="color: red;font-size:14px">该手机号已被注册</span>
+            {%endif%}
+            {%if error == 3%}
+            <span style="color: red;font-size:14px">手机号格式有误</span>
+            {%endif%}
+        </div>
+        <!--密码框-->
+        <div id="d66" class='ttt'>密码</div>
+        <div id="d6">
+            <input type="password" name="upwd1" placeholder="请输入6-20位号码字符" class="form-control" id="i2">
+            {%if error == 1%}
+            <span style="color: red;font-size:14px">请输入6-20位号码字符</span>
+            {%endif%}
+        </div>
+
+        <!--确认密码框-->
+        <div id="dd77" class='ttt'>确认密码</div>
+        <div id="dd7">
+            <input type="password" name="upwd2" placeholder="请输入6-20位号码字符" class="form-control" id="i3">
+        </div>
+        <!--用户名-->
+        <div id="dd88" class='ttt'>用户名</div>
+        <div id="dd8">
+            <input type="text" name="uname" class="form-control ttt" id="i4">
+        </div>
+        <!--邮箱-->
+        <div id="dd99" class='ttt'>邮箱</div>
+        <div id="dd9">
+            <input type="text" name="uemail" class="form-control ttt" id="i5">
+        </div>
+        <!--登录按钮，注册会员-->
+        <div id="d8">
+            <div>
+                <button type="submit" class="btnlogin">注册</button>
+            </div>
+            <div>
+                <button id="register">
+                    <a href="{%url 'index_login'%}" target="_self">会员登录</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</form>
+{%endblock%}

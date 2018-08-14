@@ -1,0 +1,147 @@
+body {
+    width: 1440px;
+    height: 1328px;
+}
+
+.md3 {
+    border-top: 1px solid #ccc;
+    width: 1280px;
+    height: 41px;
+    margin: 0 80px 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#md4 {
+    width: 1440px;
+    height: 930px;
+}
+
+#md4 > #md44 {
+    margin: 0 75px;
+    width: 1290px;
+    height: 930px;
+}
+
+.md444 {
+    margin: 0 5px;
+    width: 248px;
+    height: 305px;
+    float: left;
+
+}
+.md444:hover{
+    overflow:hidden;
+    transition: all 0.5s linear;
+}
+
+.md444 img {
+    width: 248px;
+    height: 248px;
+
+}
+
+.md444 .md4444 {
+    width: 248px;
+    height: 48px;
+    position: relative;
+}
+
+.md4444 div {
+    width: 210px;
+    height: 24px;
+    padding-left: 2px;
+}
+
+.md4444 img {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 9px;
+    right: 0;
+}
+
+#md6 {
+    width: 1440px;
+    height: 620px;
+}
+
+#md6 > #md66 {
+    margin: 0 75px;
+    width: 1290px;
+    height: 930px;
+}
+
+#md8 {
+    width: 1440px;
+    height: 930px;
+}
+
+#md8 > #md88 {
+    margin: 0 75px;
+    width: 1290px;
+    height: 930px;
+}
+
+#md10 {
+    width: 1440px;
+    height: 930px;
+}
+
+#md10 > #md1010 {
+    margin: 0 75px;
+    width: 1290px;
+    height: 930px;
+}
+
+#d11 {
+    width: 1280px;
+    height: 170px;
+    padding: 20px 0 8px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+/*底部二维码部分*/
+#d111 {
+    position: absolute;
+    left: 0;
+    width: 595px;
+    height: 160px;
+    margin-bottom: 10px;
+
+}
+
+/*右边二维码*/
+#d111 #i22 {
+    position: absolute;
+    right: 45px;
+    margin-bottom: 10px;
+}
+
+#d111 span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #999;
+    font-size: 14px;
+    height: 20px;
+}
+
+/*二维码下的文字*/
+#d111 #ii22 {
+    margin-right: 65px;
+}
+
+/*左边二维码*/
+#d111 #i21 {
+    position: absolute;
+    right: 220px;
+    margin-bottom: 10px;
+}
+
+/*二维码下的文字*/
+#d111 #ii21 {
+    margin-right: 230px;
+}
